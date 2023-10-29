@@ -51,6 +51,7 @@ public class Rater {
 	public ArrayList<String> getItemsRated() {
 		ArrayList<String> ratingList = new ArrayList<String>();
 		for (Rating item : myRatings) {
+			//System.out.println(getClass().getName()+"  "+item.getItem());
 			ratingList.add(item.getItem());
 		}
 		return ratingList;
